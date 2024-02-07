@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Be My Valentine</title>
+<link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <h1 id="header" class="fade-element">Will You Be My Valentine?</h1>
+    
+        <div class="image-slot fade-element" id="image-slot">
+            <img src="assets/heart.png" alt="Valentine's Image">
+        </div>
+        
+        <div class="response-buttons">
+            <button id="yes-button" class="fade-element">Yes :)</button>
+            <button id="no-button" class="fade-element">No :(</button>
+        </div>
+
+        <div id="overlay"></div>
+
+        <audio id="noSound" preload="auto">
+            <source src="assets/sad.mp3" type="audio/mp3">
+        </audio>
+
+        <div id="darkOverlay"></div> 
+        <div id="Overlay"></div> 
+        <div id="yesOverlay"></div>
+
+        <audio id="yesSound" preload="auto">
+            <source src="assets/happy.mp3" type="audio/mp3">
+        </audio>
+    <script src="script.js"></script> 
+</body>
+</html>
+<style>
+
